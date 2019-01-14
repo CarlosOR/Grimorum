@@ -1,0 +1,13 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Login extends Model
+{
+    protected $table = 'Login';
+    protected $fillable = ['ID', 'NOMBRE'];
+    public $timestamps = false;
+
+}
